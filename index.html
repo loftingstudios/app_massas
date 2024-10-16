@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renders 3D Famiglia Venturelli Massas</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #666666;
+        }
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .logo-space {
+            background-color: #666666;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            max-width: 1500px;
+            overflow: hidden;
+        }
+        .image-space {
+            max-width: 1500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .image-space img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .video-space {
+            max-width: 1500px;
+            max-height: 1080px;
+            margin: 0px auto 0;
+            overflow: hidden;
+        }
+        .video-space video {
+            width: 100%;
+            height: auto;
+            max-height: 1080px;
+            display: block;
+        }
+        .placeholder-text {
+            background-color: #666666;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 1500px) {
+            .container, .image-space, .video-space {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+             
+        <div class="image-space">
+            <img src="src/gravata_front_4k_revB_khronos.png" alt="Imagem de apresentação">
+            <img src="src/gravata_L_4k_revB_khronos.png" alt="Imagem de apresentação">
+            <img src="src/gravata_R_4k_revB_khronos.png" alt="Imagem de apresentação"> 
+        </div>
+        <div class="video-space">
+                <video controls>
+                <source src="src/_gravata_flyby.mp4" type="video/mp4">
+                </video>
+        </div>
+    </div>
+</body>
+</html>
